@@ -1,0 +1,14 @@
+trading:
+  ticker: 'NVDA'
+  start_date: '2018-01-01'
+  window_size: 10
+  start_balance: 10000
+  position_percent: 1.0
+  min_slope_long: 0.05
+  std_factor: 1.0
+  optimise: 'n'
+
+app:
+  host: '0.0.0.0'
+  port: 80
+  debug: True
